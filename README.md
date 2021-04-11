@@ -22,13 +22,15 @@ zinit light "ri7nz/zsh-yarn"
 zplug "ri7nz/zsh-yarn"
 ```
 ## TODO 
-- [ ] make it configurable with `ZSH_YARN_VERSION`
+- [ ] make it configurable with `ZSH_YARN_VERSION` in env variable
 ```zsh
 export ZSH_YARN_VERSION="v2.x.x" # (version)
 export ZSH_YARN_VERSION="2.x.x" # (version)
 export ZSH_YARN_VERSION="nightly-2.x.x" # need parse (version type)-(version)
 export ZSH_YARN_VERSION="rc-2.x.x" # need parse (version type)-(version)
 ```
+- [ ] maybe support for yarnV2 aka berry [let's discuss]
+   
 ## Similar Projects
 - [**zsh-fnm**](https://github.com/dominik-schwabe/zsh-fnm)
 - [**zsh-nvm**](https://github.com/lukechilds/zsh-nvm)
